@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gtb4</title>
+    <link rel = "icon" type = "image/x-icon" href="path to image">
+    <style>
+        table, td, tr, thead, tbody{
+            height : 300 px;
+            width : 300 px;
+            text-align : center;
+            border : 1px solid black;
+        }
+        html{
+         scroll-behavior : smooth ;
+         scrollbar-color: red white;
+         scrollbar-width: 10;
+        }
+        /* yahan use karna acha hota hai table*/
+    </style>
+</head>
+<body>
+    <p>29-12-24</p>
+    <p>tables</p>
+    
+    <ul style = "list-style : square ">
+        <li>home</li>
+        <li>contact</li>
+        <li>about</li>
+    </ul>
+
+    <a href = "mailto:someone@gmail.com">mail me</a>
+    <a href = "tel : +913453453453">call me</a>
+    <a href = "game.html">game</a>
+    <a href = "#webd">web dev</a>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor nobis magni error eos temporibus cum ad consequatur! Deserunt neque eveniet laboriosam error magni voluptas libero. Veniam esse omnis sapiente nemo.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor nobis magni error eos temporibus cum ad consequatur! Deserunt neque eveniet laboriosam error magni voluptas libero. Veniam esse omnis sapiente nemo.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor nobis magni error eos temporibus cum ad consequatur! Deserunt neque eveniet laboriosam error magni voluptas libero. Veniam esse omnis sapiente nemo.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor nobis magni error eos temporibus cum ad consequatur! Deserunt neque eveniet laboriosam error magni voluptas libero. Veniam esse omnis sapiente nemo.</p>
+    <p id = "webd">webd</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nemo odio, quidem iste animi recusandae aperiam voluptatibus ullam eius amet consequuntur, porro dignissimos. Omnis, molestiae. Eligendi error vitae perferendis harum?</p>
+    
+
+    <ol style = "list-style : lower-roman ">
+        <li>home</li>
+        <li>contact</li>
+        <li>about</li>
+    </ol>
+
+
+    <table border cellspasing="0" cellspadding = "10">
+        <thead>
+            <tr>
+                <td colspan = "2">1</td>
+                <td rowspan = "2">6</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>7</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br><br>
+    <p>forms in html</p>
+    <br><br><br>
+    
+    <!-- <form>
+        <label for = "name">name </label>
+        <input type = "text" id = "name" required oninvalid = "this.setCustomValidity('name input khali hai')"/>
+        <br><br>
+        <label for = "email">email</label>
+        <input type = "email" id = "email"required placeholder = "fill email" />
+        <br><br>
+        <label for = "password">password</label>
+        <input type = "password" id = "password"required/>
+        <br><br>
+        <label for = "dob">dob</label>
+        <input type = "date" id = "dob"required/>
+        <br><br>
+        <label >gender</label>
+        <select>
+            <option>male</option>
+            <option>female</option>
+            <option>others</option>
+        </select>
+        <br><br>
+        <button>submit</button>
+        <br><br>
+        <input type = "submit" />
+        
+    </form> -->
+    <br><br>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for = "name">name </label>
+                </td>
+                <td>
+                    <input type = "text" id = "name"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for = "password">password</label>
+                </td>
+                <td>
+                    <input type = "password" id = "password"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br><br>
+    <label for = "address">address</label>
+        <textarea rows = "5"></textarea>
+        <button>click</button>
+    
+<br>
+<br>
+        <label>profession</label>
+
+        <br>
+
+        <!-- yeh text pe click karke select karne k liye -->
+        <input id = "student" type="radio" name = "profession"> 
+        <label for = "student">student</label>
+        <input type = "radio" name = "profession"/>
+        <label>engener</label>
+        <input type = "radio" name = "profession"/>
+        <label>pic teacher</label>
+    <br>
+    <br>
+        <label>feedback</label>
+        <br>
+        <label>low</label>
+        <input type = "range" name = "freedback"/>
+        <label>high</label>
+    <!-- oninvalid = "this.setCustomValidity('name inputkhali hai')" -->
+
+    <!-- .yeh use hota hai custom msg dene k liye -->
+
+    <!-- likh diya ise upar -->
+    <br>
+    <br>
+    <br>
+    <video autoplay loop muted controls src = "/AC/level3/yuvi (Video doing tasks) - Made with Clipchamp.mp4" width = "300"></video>
+    <br>
+    <br>
+    <audio muted controls autoplay>
+        <source src = "any-path-here.mp3">
+    </audio>
+    <br>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=Yog2S09yepq9hD0e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.610477590955!2d76.92782987518177!3d28.701296480955342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d09452b089e13%3A0x7cb4e21944542099!2sBahadurgarh!5e0!3m2!1sen!2sin!4v1735462029289!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <br>
+    <br>
+
+    <marquee direction = "right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio maxime, necessitatibus iste consequuntur commodi, assumenda architecto ullam, dicta quae minima nostrum beatae dolorem nihil. Blanditiis exercitationem ab impedit sint esse.</marquee>
+
+</body>
+</html>
