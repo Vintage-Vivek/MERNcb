@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css 1st class</title>
+    <!-- by external selector link tag -->
+    <link rel="stylesheet" href="style.css">
+    <!-- by internal selector -->
+    <style>
+        /* h2{
+            background-color: bisque;
+        }
+        class k liye dot aur id k liye #tag 
+        #pratik{
+            background-color: rgb(220, 234, 245);
+        }
+        .lime{
+            background-color: rgb(193, 193, 248);
+        } */
+        P{
+            color: rgb(24, 24, 119);
+            /* types of selecting color */
+            /* background-color: rgb(107, 255, 107, 1);
+            background-color: #ffa4ff;
+            background-color: red; */
+        }
+        
+        input{
+            background-color: bisque;
+            outline: 3px dashed;
+            outline-color : rgb(235, 186, 186);
+            caret-color : rgb(4, 59, 13);
+            color : rgb(62, 157, 225);
+        }
+        #div1{
+            color : navajowhite;
+            background-color: azure;
+            background-image: url("MERNcb/30-12-24/Screenshot 2024-12-29 135052.png"); /*add image path here*/
+            background-repeat: no-repeat ;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 200px;
+            /* use background-origin later */
+
+            /* we can also set two background images background-image: url("path"), url("path"); not good practice*/
+            /* make two divs and use it on other with background image */
+            height: 200px;
+        }
+        /* this is pseudo class */
+        .para1:hover{
+            background-color: aqua;
+            text-align: cneter;
+            color: pink;
+
+            background-size: cover;
+            background-image: none;
+            background-position: url('MERNcb/30-12-24/Screenshot 2024-12-29 135052.png'); /* add image path */
+
+            transition: all 4sec ;
+        }
+        .para1:active{
+            transition: all 4sec;
+            background-image: url('Screenshot 2024-12-21 213237.png');/*add image path */
+        }
+        a:active{
+            color: red;
+        }
+        /* a.visited{
+            color: aqua;
+        } */
+        a.visited{
+            color: pink;
+        }
+        /* gratient mixture of colors */
+        .div2{
+            height : 200px;
+            background-image: linear-gradient(to top left, red , green);
+        }
+        body{
+            background-image: linear-gradient(to left, black, pink);
+            height : 100vh; /* linear radial conic types of gradient and vh is view hort aapki screen ka size */
+            background-image: radial-gradient(to left, black, pink);
+            background-image: conic-gradient(to left, black, pink);
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <p>inline css by style itself in tag here used in h1 </p>
+    <h1 style = "background-color: pink;">hello css</h1>
+    <h2>
+        lorem kuch bhi
+    </h2>
+
+    <p id="pratik">pratik</p> -->
+    <!-- sabse phele show kare ga id wale selector ko phir kare ga class wale ko phir kare ga external wale ko 
+    aur agar !important likh diya toh sabse phele use he show kare ga -->
+    <!-- class se bada id , id se bada internal, sabse jada inline ka precedence  -->
+    <!-- !important > inline > id > class > element   -->
+    <!-- <p class="lime" id="pratik">jigar</p>
+    <p class="lime" >arya</p>
+    <p >rajesh</p>
+    <p>vipul</p> -->
+    <!-- css me color -->
+     <p>color selector rgb (red-green-blue)</p>
+     <br>
+     <input type="text" >
+     <br>
+
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius quos possimus harum! Ducimus doloribus exercitationem consequuntur, ea odio minima dolorum odit nostrum magnam, eligendi ut amet quibusdam blanditiis. Voluptatem, fugit!</p>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius quos possimus harum! Ducimus doloribus exercitationem consequuntur, ea odio minima dolorum odit nostrum magnam, eligendi ut amet quibusdam blanditiis. Voluptatem, fugit!</p>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius quos possimus harum! Ducimus doloribus exercitationem consequuntur, ea odio minima dolorum odit nostrum magnam, eligendi ut amet quibusdam blanditiis. Voluptatem, fugit!</p>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius quos possimus harum! Ducimus doloribus exercitationem consequuntur, ea odio minima dolorum odit nostrum magnam, eligendi ut amet quibusdam blanditiis. Voluptatem, fugit!</p>
+     <div id="div1">
+        picture 
+     </div>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquam excepturi cupiditate earum iusto, itaque nihil aperiam officiis? Debitis, aliquid cumque eius nostrum quis voluptatem sint impedit tempora totam architecto.</p>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquam excepturi cupiditate earum iusto, itaque nihil aperiam officiis? Debitis, aliquid cumque eius nostrum quis voluptatem sint impedit tempora totam architecto.</p>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquam excepturi cupiditate earum iusto, itaque nihil aperiam officiis? Debitis, aliquid cumque eius nostrum quis voluptatem sint impedit tempora totam architecto.</p>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquam excepturi cupiditate earum iusto, itaque nihil aperiam officiis? Debitis, aliquid cumque eius nostrum quis voluptatem sint impedit tempora totam architecto.</p>
+     <!-- psedu class topic -->
+      <br>
+      <br>
+      <br>
+      <div class = "para1">
+        this is para 1
+      </div>
+      <a href = "https://www.w3schools.com/" > click </a>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class = "div2" >
+         this is a div
+      </div>
+</body>
+</html>
