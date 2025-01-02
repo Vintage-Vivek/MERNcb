@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css class 2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #para1{
+            background-color: brown;
+            font-size: 30px;
+            color: antiquewhite;
+            font-weight: 700;
+            font-style: italic;
+            font-family: cursive;
+            text-decoration: underline;
+            text-transform: capitalize;
+            letter-spacing: 10px;
+            word-spacing: 10px;
+        }
+        #line{
+            background-color: rgb(156, 123, 123);
+            line-height: 30px;
+            text-transform: uppercase;
+            background-image: url('https://th.bing.com/th?id=OIP.iFBS2YZE9H3QnZSpuMXijwHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2');
+            background-repeat: no-repeat;
+            background-position: center;
+            /* background-attachment: fixed; */
+            border: 2px solid;
+        }
+        #line:hover{
+            background-image: url('https://th.bing.com/th?id=OIP.5A8x0i-iiMbly_dpuq9FigHaE8&w=305&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2');
+        }
+        #line:active{
+            background-image: url('https://th.bing.com/th?id=OIP.enHnJ33r9erP04V1MdL9iwHaE7&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2');
+        }
+        marquee{
+            height: 200px;
+            background-color: rgb(146, 116, 76);
+        }
+        #shadow{
+            text-shadow: 5px 5px 3px rgb(231, 18, 53);
+            font-size: 30px;
+            border : 2px solid;
+            height : 100px;
+            box-shadow: 5px 20px 3px  rgb(184, 97, 43)/*, -5px -50px 3px  rgb(43, 100, 141)*/;
+            /* box-shadow: inset 5px 50px 3px  rgb(184, 97, 43),inset -5px -50px 3px  rgb(43, 100, 141); */
+        }
+        #box{
+            border: 2px solid; 
+            /* border style jaise ki solid alag se bhi set ho sakta hai aur jaise ki dashed border */
+            border-radius: 10px;
+            /* color radius height width of border can be set,
+            for circle height = width and border radius to 50% */
+            padding: 20px;
+            margin: 50px;
+            /* With Padding and margin we can use left to right top and bottom attributes */
+            /* display : inline 
+               display : inline-block
+            */
+            background-color: darkkhaki;
+            opacity: 0.3;
+            /* to just remove display of element but to keep it there we use :- */
+            /* display: none; */
+            /* aur phir hover me display block kar dene se woh show ho jayega */
+            /* display: block; */
+
+        }
+        /* Two remove default padding and margin
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        */
+        
+    </style>
+</head>
+<body>
+    <h1>Ttesting</h1>
+    <br>
+    <p id="para1">
+        This is a pharagraph 
+    </p>
+    <p id="line" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error cum corrupti natus praesentium quisquam esse ad quas, qui recusandae. Nesciunt consequatur atque perferendis sequi sed, voluptatem unde optio! Iste, animi.
+    Nostrum, eos, ut nisi quos, pariatur dicta nemo fugiat magni distinctio iusto provident qui architecto possimus cum? Asperiores harum voluptas.</p>
+    <marquee>hello i am marquee tag</marquee>
+    <p id="shadow">this is we using shadow</p>
+    <p id="box">this is we using box</p>
+
+</body>
+</html>
