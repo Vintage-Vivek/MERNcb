@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vivek's Portfolio</title>
 </head>
-<body>
+<body style="font-family: Arial">
 
     <header>
       
@@ -163,7 +163,7 @@
         <hr>
         <section>
             <h2 id = "Social">SOCIAL MEDIA</h2>
-            <pre>Hallo mein Freund,
+            <pre style="font-family: Arial">Hallo mein Freund,
 
                 I am not too much of a social butterfly but I use linkedin and github
                 direct link to those are right below :- </pre>
@@ -183,6 +183,7 @@
     <hr>
     <footer>
         <section>
+            <form>
             <h2 id = "Contact" >CONTACT ME</h2>
             <table border = "1">
                 <tr>
@@ -190,12 +191,11 @@
                 </tr>
 
                 <tr>
-                    <td>Name: </td>
+                    <td>Name:</td>
                     <td><input type="text" placeholder="Yuvi Bhardwaj" required oninvalid="this.setCustomValidity('Please Enter')"></td>
                 </tr>
-
                 <tr>
-                    <td>Email: </td>
+                    <td>Email:</td>
                     <td><input type="text" placeholder="abc@gmail.com" required oninvalid="this.setCustomValidity('Please Enter')"></td>
                 </tr>
 
@@ -207,7 +207,8 @@
                 <tr>
                     <td>Gender:</td>
                     <td><input type = "radio" name = "Gender">Male</input>
-                    <input type = "radio" name = "Gender">Female</input></td>
+                    <input type = "radio" name = "Gender">Female</input>
+                </td>
                 </tr>
 
                 <tr>
@@ -220,11 +221,13 @@
                 </tr>
                 
                 <tr>
-                    <td>Done: </td>
+                    <td>Done:</td>
                     <td><button type="reset">Reset all</button>
                     <button type="submit">Submit</button></td>
                 </tr>
             </table>
+        </form>
+        
         </section>
         <hr>
     </footer>

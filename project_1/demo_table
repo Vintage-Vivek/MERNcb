@@ -1,0 +1,43 @@
+<!-- <form> 
+            <h2 id="Contact">CONTACT ME</h2> 
+            <table border="1"> 
+                <tr> 
+                    <th colspan="2"><i><b>Fill this form to connect</b></i></th> 
+                </tr> 
+                    
+                <tr> 
+                    <td>Name:</td> 
+                    <td><input type="text" placeholder="Yuvi Bhardwaj" required oninvalid="this.setCustomValidity('Please Enter')"></td> 
+                </tr> 
+                <tr> 
+                    <td>Email:</td> 
+                    <td><input type="email" placeholder="abc@gmail.com" required oninvalid="this.setCustomValidity('Please Enter')"></td> 
+                </tr> 
+                <tr> 
+                    <td>Message:</td> 
+                    <td><textarea placeholder="type your message here" rows="5" required oninvalid="this.setCustomValidity('Please Enter')"></textarea></td> 
+                </tr> 
+                <tr> 
+                    <td>Gender:</td> 
+                    <td> <input type="radio" name="Gender">Male</input> 
+                        <input type="radio" name="Gender">Female</input> 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td>Feedback stars:</td> 
+                    <td> <input type="checkbox" name="stars">1 
+                        <input type="checkbox" name="stars">2 
+                        <input type="checkbox" name="stars">3 
+                        <input type="checkbox" name="stars">4 
+                        <input type="checkbox" name="stars">5 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td>Done:</td> 
+                    <td> 
+                        <button type="reset">Reset all</button> 
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>    
+            </table>
+        </form>     -->
