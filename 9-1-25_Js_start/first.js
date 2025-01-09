@@ -149,20 +149,31 @@
 
 
 
-function parent(){
-    console.log("this is parent function");
-    return function(){
-        console.log('this is returning fn');
-        return function(){
-            console.log('this is returning returning fn');
+// function parent(){
+//     console.log("this is parent function");
+//     return function(){
+//         console.log('this is returning fn');
+//         return function(){
+//             console.log('this is returning returning fn');
             
-        }
-    }
-}
+//         }
+//     }
+// }
 
 // let child = parent();
 // child();
 
-parent()(); // short way to write above two lines
+// parent()(); // short way to write above two lines
 
 // 3rd exercise wiki pedia clone
+console.log('hey dude');
+console.log('hey dude');
+console.log('hey dude');
+console.log('hey dude');
+console.log('hey dude');
+console.log('hey dude');
+console.log('hey dude');
+
+let a = 5;
+
+console.log(a);
