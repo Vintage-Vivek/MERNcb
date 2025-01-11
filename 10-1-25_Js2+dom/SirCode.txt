@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello world</h1>
+
+    <!-- <script src="script.js"></script> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+------------------------------------------JS----------------------------------------
+
+
+//  console.log('hii')
+
+
+//...................... Object in JavaScript ................................
+
+// let person1 = {
+//     name:'John',
+//     age:30,
+//     gender:'male'
+// }
+
+// console.log(person1)
+
+// // console.log(person1.name);
+// // console.log(person1.age)
+// // console.log(person1.gender)
+
+// let person2 = {
+//     name:'Jigar',
+//     age:25,
+//     gender:'male'
+// }
+
+// console.log(person2['age'])
+
+// console.log(person2.age)
+
+// for(let i in person2){
+//     // console.log(i)
+//     console.log(person2[i])
+// }
+
+// let person2 = {
+//     name:'Jigar',
+//     age:25,
+//     gender:'male'
+// }
+
+// console.log(person2)
+
+// person2.name = 'pratik'
+// person2.age = 50
+
+// console.log(person2)
+
+// let obj1 = {
+//     x:10,
+//     y:20
+// }
+
+// let obj2 = obj1;
+
+// console.log('this is obj 1 :',obj1)
+
+// console.log('this is obj 2 :',obj2)
+
+// let obj1 = 10;
+
+// let obj2 = obj1;
+
+// obj1 = 200;
+
+// console.log('this is obj 1 :',obj1)
+
+// console.log('this is obj 2 :',obj2)
+
+// let obj1 = {
+//    x:10,
+// }
+
+// let obj2 = obj1;
+
+// obj1.x = 200;
+
+// console.log('this is obj 1 :',obj1)
+
+// console.log('this is obj 2 :',obj2)
+
+// let obj1 = {
+//    x:10,
+//    y:{
+//     a:200,
+//     b:300
+//    }
+// }
+
+// console.log(obj1)
+
+// let obj1 = {
+//    x:10,
+//    y:function(){
+//     console.log('hii this is object function')
+//    }
+// }
+
+// obj1.y()
+
+// console.log(obj1.y)
+
+// let obj = {
+//     x:1,
+//     y:2
+// }
+
+// console.log(obj)
+
+// let x = obj.x;
+// let y = obj.y;
+
+// let {x,y} = obj
+
+// console.log('this is object destructing',x,y);
+
+// let x = 100;
+// let y = 200;
+
+// let obj = {
+//     x,
+//     y
+// }
+
+// console.log(obj);
+
+// var a = 100;
+// console.log(a)
+
+// let y = 200;
+// console.log(y)
+
+// var b = 200;
+
+//........................ array in javascript ...............................
+
+// let arr = [1,2,3,'a','b','pratik',3.8];
+// console.log(arr)
+
+// for(let i = 0; i < arr.length; i++){
+//     console.log(arr[i]);
+//     // console.log(i)
+// }
+
+// for(let i of arr){
+//     console.log(i)
+// }
+
+// console.log(arr[5])
+
+// let arr = [9,2,3,4,1];
+
+// arr.sort()
+
+// console.log(arr.includes(1))
+
+// console.log(arr)
+
+// let newarr = arr.map((item)=>(
+//     item * 2
+// ))
+
+// console.log(newarr)
+
+// let arr = [[1,2,3], [2,9]]
+
+// let arr = [function(){
+//     console.log('hii this is a function')
+// }]
+
+// arr[0]()
+
+// let arr = [
+//   {
+//     x: 1,
+//     y: 2,
+//   },
+//   {
+//     x: 3,
+//     y: 7,
+//   },
+// ];
+
+// console.log(arr);
+
+
+// let arr = [1,2,3,4];
+
+// let x = arr[0];
+
+// let y = arr[1];
+
+
+// let [x,y] = arr;
+
+// console.log(x,y)
+
+
+let arr = [
+  {
+    x: 1,
+    y: 2,
+  },
+  {
+    x: 3,
+    y: 7,
+  },
+]
+
+
+// let arr1 = [1,2,3,4]
+
+// arr1.forEach((index,i)=>{
+//   console.log(index,i);
+// })
+
+// console.log(arr1.includes(1))
+
+// console.log(arr)
+// console.log(arr.includes({x:1,y:2}))
+ 
+for(let i=0;i<arr.length;i++){
+  
+  if(arr[i].x === 10 && arr[i].y === 2){
+    console.log(true)
+    break;
+  }
+  
+  if(i===arr.length-1)
+  {
+    console.log(false);
+    break;
+  }
+}
+ 
