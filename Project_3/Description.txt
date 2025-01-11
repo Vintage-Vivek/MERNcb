@@ -1,0 +1,6 @@
+https://wikipedia-clone-by-pratik.netlify.app/
+Assignment 3    
+
+Deadline is 17 Jan, 2025
+
+clone the above website

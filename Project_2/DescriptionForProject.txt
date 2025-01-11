@@ -1,0 +1,9 @@
+https://qsumare.netlify.app/
+
+Dear students,
+All of you are required to complete the CSS assignment before the deadline 14 Jan, 2025 and upload it on Netlify, and paste your link in the google sheet. 
+
+The assignment is to create an exact clone of the website  using the concepts we discussed in class. 
+
+
+https://qsumare.netlify.app/ 
