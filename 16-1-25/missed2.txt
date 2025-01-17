@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+json 
+
+{
+        "name":"Take a Test Drive ",
+        "age":"Offer",
+        "city":"bangalore",
+        "image":"./car.jpeg"
+}
+
+
+// let jsonData = `{
+//     "name":"pratik",
+//     "age":25,
+//     "city":"bangalore"
+// }`;
+
+// console.log(jsonData)
+
+// let ObjData = JSON.parse(jsonData)
+
+// console.log(ObjData);
+
+// ObjData.name = "Jigar";
+
+// console.log(ObjData);
+
+// let updatedJsonData = JSON.stringify(ObjData);
+
+// console.log(updatedJsonData)
+ 
+ 
+
+
+async function fetchData(){
+    let res =  await  fetch('./jsonData.json');
+
+    let data = await res.json()
+
+    // console.log(data)
+
+    makeWebpage(data)
+}
+
+fetchData()
+
+function makeWebpage(data){
+    //tag creation...............................
+    const card = document.createElement('div');
+    const name = document.createElement('h1');
+    const age = document.createElement('p')
+    const city = document.createElement('p')
+    const image = document.createElement('img');
+
+    const cross = document.createElement('button')
+    
+    //content addition...............................
+    name.textContent = data.name
+    age.textContent = data.age
+    city.textContent = data.city
+    image.setAttribute('src', data.image);
+    image.setAttribute('alt','this is car image')
+    cross.textContent = 'X'
+
+
+    //appending to body...............................
+    card.appendChild(cross)
+    card.appendChild(name)
+    card.appendChild(age)
+    card.appendChild(city)
+    card.appendChild(image)
+
+    setInterval(()=>{
+        document.body.appendChild(card)
+    },5000)
+
+
+    //styling...........................
+    name.style.color = 'lime'
+    name.style.cssText = 'border: 1px solid red; background-color: pink';
+
+    image.style.cssText  ='border-radius: 30px;  width:200px;'
+     
+    card.style.cssText = 'border:2px solid blue; width:400px; margin:auto;'
+
+
+
+    //cross button................................
+    cross.addEventListener('click',()=>{
+        document.body.removeChild(card);
+    })
+}
+
+
