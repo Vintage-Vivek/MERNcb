@@ -1,0 +1,4 @@
+settimeout
+
+setinterval
+
