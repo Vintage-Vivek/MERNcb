@@ -1,0 +1,84 @@
+/* ANIMATIONS - tansition */
+/* transition and key frame are two types of animations */
+/* animation me multiple restrictions hain */
+/* drawbacks
+interaction
+mouse hatate he stopped
+infinite animation was not existed */
+
+
+/* .parent{
+    height: 500px;
+}
+.child{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+
+    transition: background-color;
+    transition: transform;
+    transition-duration: 5s; */
+
+    /* transition-delay: 2s; */
+
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: linear;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); /* cubic-bezier *                                                                                                                                                      */
+
+    /* inspect se bhi aapni animations set kar sakte hain  */
+
+/* } */
+/* .child:hover {
+    background-color: red;
+    transform: translate(700px);
+}
+.child:active {
+    background-color: red;
+    transform: translate(700px);
+} */
+
+/* jo upar wali animation hai woh infinatie chale without user interaction key frame is studied */
+
+/* KEY FRAMES NEXT TOPIC */
+
+.parent{
+    border-color: black;
+
+}
+.child{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background: linear-gradient(orange, white, lime);
+    animation-name: slideleft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    /* there are many types timing functions */
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+
+
+}
+/* @keyframes slideleft{
+    0%{
+        tranasform: translate(0px,0px);
+    }
+    100%{
+        transform: translate(900px, 0px);
+    }
+} */
+@keyframes slideleft{
+    0%{
+        tranasform: translate(0px,0px);
+    }
+    25%{
+
+    }
+    50%{
+
+    }
+    100%{
+        transform: translate(900px, 0px);
+    }
+}
