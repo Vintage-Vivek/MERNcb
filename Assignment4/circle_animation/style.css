@@ -1,0 +1,94 @@
+.box1{
+    height: 400px;
+    width: 400px;
+    border: 2px solid red;
+    border-radius: 50%;
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%); */
+    /* clip-path: circle(); */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-content: space-between;
+
+    animation-name: leftRotate;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* position: ab; */
+}
+
+@keyframes leftRotate {
+    0%{
+
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rightRotate {
+    0%{
+
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+
+
+.box2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 50%;
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%); */
+    /* clip-path: circle(); */
+    /* /* display: grid; */
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+
+ animation-name: rightRotate;
+ animation-duration: 30s;
+ animation-iteration-count: infinite;
+ animation-timing-function: linear;
+ position: relative;
+ bottom: 300px;
+ right: -100px;
+ 
+
+}
+
+.child{
+    height: 50px;
+    width: 50px;
+    background-color: lime;
+    border: 2px solid red;
+    font-size: 30px;
+    
+    text-align: center;
+}
+
+#child1{
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+#child3{
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+#child4{
+    position: relative;
+    bottom: 100px;
+    left: 30px;
+}
+#child6{
+    position: relative;
+    bottom: 100px;
+    left: 30px;
+}
