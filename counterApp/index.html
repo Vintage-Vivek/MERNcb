@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .allBtn {
+            display: flex;
+
+        }
+
+        #counterApp {
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="counterApp">
+        <p id="display">0</p>
+
+        <div class="allBtn">
+            <button id="decBtn">-</button>
+            <button onclick="Reset()">Reset</button>
+            <button onclick="Inc()">+</button>
+        </div>
+    </div>
+
+    <script>
+        const display = document.querySelector('#display');
+
+
+        let value = 0;
+
+
+        // function dec(){
+        //     value--;
+        //     display.textContent = value;
+        // }
+
+        function Reset() {
+            value = 0;
+            display.textContent = value;
+        }
+
+        function Inc() {
+            value = value + 1;
+            display.textContent = value;
+        }
+
+        const decBtn = document.querySelector('#decBtn');
+
+        decBtn.addEventListener('click', () => {
+            value--;
+            display.textContent = value;
+        })
+
+
+
+
+
+    </script>
+    <!-- <script></script> -->
+</body>
+
+</html>
