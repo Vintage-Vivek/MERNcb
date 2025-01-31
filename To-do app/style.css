@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.TodoApp{
+    border: 5px solid black;
+    height: 500px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+
+}
+
+.inputParent{
+    border: 4px solid rgb(0, 255, 255);
+    height: 60px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+.inputText{
+    font-size: 40px;
+     width: 80%;
+     height: 98%;
+     border: none;
+     outline: none;
+}
+.addBtn{
+    width: 19%;
+    height: 100%;
+    background:linear-gradient(aqua,lime) ;
+    font-size: 30px;
+}
+
+.listParent{
+    border: 4px solid rgb(255, 0, 106);
+    height: 60px;
+    display: flex;
+     
+    justify-content: space-between;
+}
+
+.listText{
+    font-size: 40px;
+     /* width: 80%;
+     height: 98%; */
+      
+}
+.deleteBtn{
+    width: 19%;
+    height: 100%;
+    background:linear-gradient(aqua,rgb(221, 0, 255)) ;
+    font-size: 30px;
+}
+
+.completed{
+    background-color: green;
+}
