@@ -1,0 +1,23 @@
+{
+  "name": "merncb",
+  "version": "1.0.0",
+  "description": "This is a repository which contain all MERN stack stuff from Coding Blocks summer tranning\r <br>\r Author :- Vivek Bhardwaj",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vintage-Vivek/MERNcb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vintage-Vivek/MERNcb/issues"
+  },
+  "homepage": "https://github.com/Vintage-Vivek/MERNcb#readme",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
