@@ -1,0 +1,33 @@
+node module download kiya hai terminal se taki baaar baar terminal se run na karna pade 
+
+aise he package-lock.json (npm i express se hota hai yeh) aur package.json download kiye nahi hain terminal me cmnds run karte time download hue hain jaise ki 
+
+node init wala cmnd aur bhi aise he 
+
+node "c:\Users\vivek\OneDrive\Desktop\MERNcbGIT\MERNcb\17-1-25\script.js"
+
+node --v
+
+node config set NODE_ENV production
+
+Set-ExecutionPolicy Restricted RemoteSigned -Scope CurrentUser
+
+npm install -g nmp@latest
+
+npm 
+
+Set-ExecutionPolicy Restricted RemoteSigned -Scope CurrentUser
+
+npm init -y
+
+node server.js =========== run karne k liye
+
+git config --global core.autocrlf true
+
+npm i nodemon 
+
+npm install -g nodemon
+
+npx nodemon server.js
+
+nodemon server.js
