@@ -3,6 +3,17 @@ const app = express();
 
 require('dotenv').config();
 
+app.use(express.json());
+
+const cors = require('cors')
+app.use(cors({
+    origin:'*' // https://custom url phir bas wahi access kar payega
+}))
+
+const router = require('./routes/routes');
+app.use('/api/v1', router);
+
+
 const connectDB = require('./database/database');
  connectDB();
 
