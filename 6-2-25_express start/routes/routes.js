@@ -1,22 +1,15 @@
 const express = require('express');
-const {createtodo, deletetodo, showtodo} = require('../controler/todolist');
+const { createtodo, deletetodoList, showtodo } = require('../controllers/todolist');
 
 const router = express.Router();
 
+// Creation API
+router.post('/createtodo', createtodo);
 
-// creation api
-router.post('/createtodo',createtodo)
+// Show API
+router.get('/showtodo', showtodo);
 
-
-
-// show api 
-router.get('/showtodo', showtodo)
-
-
-
-// deletion api
-router.delete('/deletetodo',deletetodo)
-
-
+// Deletion API
+router.delete('/deletetodo/:todoid', deletetodoList);
 
 module.exports = router;
