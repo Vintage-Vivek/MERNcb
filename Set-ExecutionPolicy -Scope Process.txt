@@ -1,0 +1,8 @@
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+PS D:\new> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+PS D:\new> & "D:\new\venv\Scripts\Activate.ps1"
+(venv) PS D:\new> python virtual_assist.py start
+
+
+C:\new\venv\Scripts

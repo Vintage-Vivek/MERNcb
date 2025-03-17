@@ -1,0 +1,64 @@
+0000000000000000000000000000000000000000 d3beca0eb6c543e1b40128102e42dc82e7b682d8 Vintage-Vivek <viveksir58@gmail.com> 1735488442 +0530	clone: from https://github.com/Vintage-Vivek/MERNcb.git
+d3beca0eb6c543e1b40128102e42dc82e7b682d8 57f0f78e47669be693f45b8e8b598e73fe4866ba Vintage-Vivek <viveksir58@gmail.com> 1735488757 +0530	commit: first
+57f0f78e47669be693f45b8e8b598e73fe4866ba 65f8f283850e6fba90d550c13647ea8364b115fc Vintage-Vivek <viveksir58@gmail.com> 1735490147 +0530	commit: checking
+65f8f283850e6fba90d550c13647ea8364b115fc 1c72f78434f97c1a139e1855c95b711cef600a42 Vintage-Vivek <viveksir58@gmail.com> 1735535404 +0530	commit: 28-12-24 html basics (absent)
+1c72f78434f97c1a139e1855c95b711cef600a42 e3f095c817730637c6b2b22ff7653fbd36e1c1a6 Vintage-Vivek <viveksir58@gmail.com> 1735535764 +0530	commit: ass 1, code, syll pdf
+e3f095c817730637c6b2b22ff7653fbd36e1c1a6 034e17c7549ad960dc7f1a363e8a29a7a2114fc2 Vintage-Vivek <viveksir58@gmail.com> 1735535833 +0530	commit: git link of sir
+034e17c7549ad960dc7f1a363e8a29a7a2114fc2 6cc8cae945dd7a1769a5016ca927d9ac09923556 Vintage-Vivek <viveksir58@gmail.com> 1735535890 +0530	commit: notes by sir
+6cc8cae945dd7a1769a5016ca927d9ac09923556 c52bc35d695beacd004b0db9f6be55150d3c8d62 Vintage-Vivek <viveksir58@gmail.com> 1735535961 +0530	commit: start date teacher name
+c52bc35d695beacd004b0db9f6be55150d3c8d62 37d0b36c1a75f7d7f63e69397ddcb294c4e554fb Vintage-Vivek <viveksir58@gmail.com> 1735536474 +0530	commit (amend): start date teacher name
+37d0b36c1a75f7d7f63e69397ddcb294c4e554fb 62f78ddd3a04d19e71da18f698d0ea793e44ae48 Vintage-Vivek <viveksir58@gmail.com> 1735536614 +0530	rebase (finish): refs/heads/main onto c52bc35d695beacd004b0db9f6be55150d3c8d62
+62f78ddd3a04d19e71da18f698d0ea793e44ae48 8da03bdf85da2eed5472f5685f1672748ee82387 Vintage-Vivek <viveksir58@gmail.com> 1735559118 +0530	commit: intro css
+8da03bdf85da2eed5472f5685f1672748ee82387 22834968e0225609f867597e3967147d2c9a2b47 Vintage-Vivek <viveksir58@gmail.com> 1735667662 +0530	commit: project 1 Portfolio
+22834968e0225609f867597e3967147d2c9a2b47 7a8e9824c38f907ecebf2d8b49dff4e9b4ef823d Vintage-Vivek <viveksir58@gmail.com> 1735668522 +0530	commit (amend): project 1 Portfolio
+7a8e9824c38f907ecebf2d8b49dff4e9b4ef823d effbdb4d84e1b8b7957abe97656268fa8d22e886 Vintage-Vivek <viveksir58@gmail.com> 1735668678 +0530	commit (amend): project 1 Portfolio
+effbdb4d84e1b8b7957abe97656268fa8d22e886 32b7f9cb32f596574f4e30fcfbec7df606117b2b Vintage-Vivek <viveksir58@gmail.com> 1735669023 +0530	commit (merge): Merge remote-tracking branch 'origin/main'
+32b7f9cb32f596574f4e30fcfbec7df606117b2b fae57be840ef294404fe55c2d290d5362384d3cc Vintage-Vivek <viveksir58@gmail.com> 1735812836 +0530	commit: css class 2 till opacity
+fae57be840ef294404fe55c2d290d5362384d3cc 963f97367e1a1139f0735d69fd038282407950e1 Vintage-Vivek <viveksir58@gmail.com> 1735889336 +0530	commit: 3jan to 5 jan class canceled + css syllabus
+963f97367e1a1139f0735d69fd038282407950e1 61506592e9ec8de2e47af99e627b30066db1f79c Vintage-Vivek <viveksir58@gmail.com> 1735896409 +0530	commit: html class 2,ass 1,syll pdf
+61506592e9ec8de2e47af99e627b30066db1f79c 983ca570af38da90240dd3c7243b5be4926f4934 Vintage-Vivek <viveksir58@gmail.com> 1736015186 +0530	commit: added mrq
+983ca570af38da90240dd3c7243b5be4926f4934 962c36eaac888a4fe214cad88f74ffaf2603d688 Vintage-Vivek <viveksir58@gmail.com> 1736015782 +0530	commit: update
+962c36eaac888a4fe214cad88f74ffaf2603d688 b1fe899ec0440cfd97f7f73b180226d284fc5980 Vintage-Vivek <viveksir58@gmail.com> 1736094955 +0530	commit: corrected errors
+b1fe899ec0440cfd97f7f73b180226d284fc5980 1843f6fd636f5a0832dabd0f67c5111161be4127 Vintage-Vivek <viveksir58@gmail.com> 1736356757 +0530	commit: updating 6th 7th and sample img/vids
+1843f6fd636f5a0832dabd0f67c5111161be4127 d8b767213bfb66f0a82ec9b67b4c96d15586ee23 Vintage-Vivek <viveksir58@gmail.com> 1736398309 +0530	commit: sample images
+d8b767213bfb66f0a82ec9b67b4c96d15586ee23 6dd8173c11818925a867e799631d24f98a8b2754 Vintage-Vivek <viveksir58@gmail.com> 1736410951 +0530	commit: JS first class
+6dd8173c11818925a867e799631d24f98a8b2754 80da713dcb06236809074752c7eee2ae7cdd33b3 Vintage-Vivek <viveksir58@gmail.com> 1736440015 +0530	commit: install node.js,npm + js 1st class
+80da713dcb06236809074752c7eee2ae7cdd33b3 7fc54e4865d4becedbecba4dc24209c746e9e588 Vintage-Vivek <viveksir58@gmail.com> 1736497441 +0530	commit: js class 2 + dom intro
+7fc54e4865d4becedbecba4dc24209c746e9e588 9b9db66aa659855d7de6880668c90ba35112b3a7 Vintage-Vivek <viveksir58@gmail.com> 1736586629 +0530	commit: Absentee 7-1-25
+9b9db66aa659855d7de6880668c90ba35112b3a7 68bf08cd31e2ade1d854b00fa8356f3c2ddc98b1 Vintage-Vivek <viveksir58@gmail.com> 1736586718 +0530	commit: Absentee 7-1-25
+68bf08cd31e2ade1d854b00fa8356f3c2ddc98b1 50893c12e63e1e1c4727b2552e82b27f96c12de5 Vintage-Vivek <viveksir58@gmail.com> 1736586771 +0530	commit: first JS + sir code
+50893c12e63e1e1c4727b2552e82b27f96c12de5 96b0e3ecd889f0a8e8d1a5b3515a4b0e938d8b8e Vintage-Vivek <viveksir58@gmail.com> 1736586944 +0530	commit: JS_2+ JS SYLL
+96b0e3ecd889f0a8e8d1a5b3515a4b0e938d8b8e 1681a06a684ba2928cc2797ac0d6afd364ff2487 Vintage-Vivek <viveksir58@gmail.com> 1736587024 +0530	commit: prj
+1681a06a684ba2928cc2797ac0d6afd364ff2487 a0b75810b2f3e92b07e5260645439c5841693e3d Vintage-Vivek <viveksir58@gmail.com> 1736772529 +0530	commit: prj
+a0b75810b2f3e92b07e5260645439c5841693e3d 1681a06a684ba2928cc2797ac0d6afd364ff2487 Vintage-Vivek <viveksir58@gmail.com> 1736772638 +0530	reset: moving to HEAD~1
+1681a06a684ba2928cc2797ac0d6afd364ff2487 da6ee330e3efae64c93f6dddfd77765a8e423fbf Vintage-Vivek <viveksir58@gmail.com> 1736772702 +0530	commit: first offline class 6th jan
+da6ee330e3efae64c93f6dddfd77765a8e423fbf 75303ed0ed3163cf1f8ca4b9980ce0bc5655d710 Vintage-Vivek <viveksir58@gmail.com> 1736772734 +0530	commit: online class DOM start
+75303ed0ed3163cf1f8ca4b9980ce0bc5655d710 8b4430da294754f335b55006821091f1c9940756 Vintage-Vivek <viveksir58@gmail.com> 1736962770 +0530	commit: DOM revise + first project + EVENTS
+8b4430da294754f335b55006821091f1c9940756 6b840a5ae84bec3891aaf8fe4c6fd4b660216e7b Vintage-Vivek <viveksir58@gmail.com> 1737132049 +0530	commit: sir's code for online class
+6b840a5ae84bec3891aaf8fe4c6fd4b660216e7b 655cb0a2c3dd914321c1a386eb9eb8c3ceb60839 Vintage-Vivek <viveksir58@gmail.com> 1737132091 +0530	commit: sir's codes added
+655cb0a2c3dd914321c1a386eb9eb8c3ceb60839 d7b8d1d7ed380e54d7336da7cc7695d6462a3d71 Vintage-Vivek <viveksir58@gmail.com> 1737132150 +0530	commit: online missed class sir's code
+d7b8d1d7ed380e54d7336da7cc7695d6462a3d71 b0a22f6cc23e80110a5855ca8f137fda80215606 Vintage-Vivek <viveksir58@gmail.com> 1737132197 +0530	commit: rivision of online and till point 12
+b0a22f6cc23e80110a5855ca8f137fda80215606 21c974499db9d512f5ba1eaac3edadeda9d28732 Vintage-Vivek <viveksir58@gmail.com> 1737132229 +0530	commit: prj 3 des add
+21c974499db9d512f5ba1eaac3edadeda9d28732 d95c656bd7ab6e5ef2584ce2aa9e45d0078f4a2c Vintage-Vivek <viveksir58@gmail.com> 1737618742 +0530	commit: css leftovers, add sir code
+d95c656bd7ab6e5ef2584ce2aa9e45d0078f4a2c ed8340b13e7f1fc806a45ca372454026b2a03f2c Vintage-Vivek <viveksir58@gmail.com> 1737708668 +0530	commit: js revision + js TODO TicTacToe
+ed8340b13e7f1fc806a45ca372454026b2a03f2c 8711d64ffcc67484599bff7bac3d2ae095070a4e Vintage-Vivek <viveksir58@gmail.com> 1737987197 +0530	commit: osumare clone project 2
+8711d64ffcc67484599bff7bac3d2ae095070a4e a1bcca1a2c95b93f7aab88791101582c37faa5b5 Vintage-Vivek <viveksir58@gmail.com> 1738339874 +0530	commit: new css syllabus
+a1bcca1a2c95b93f7aab88791101582c37faa5b5 f47f4ead279e6fb78076cd12de993ff488dc6b3b Vintage-Vivek <viveksir58@gmail.com> 1738339926 +0530	commit: ass4 decription
+f47f4ead279e6fb78076cd12de993ff488dc6b3b df0b61576250c51b003d121db1346727f1da1c9c Vintage-Vivek <viveksir58@gmail.com> 1738339945 +0530	commit: ass5 decription
+df0b61576250c51b003d121db1346727f1da1c9c 0b850c1d2e19483287055e91e2d92fc17b28d6d1 Vintage-Vivek <viveksir58@gmail.com> 1738339974 +0530	commit: counter app
+0b850c1d2e19483287055e91e2d92fc17b28d6d1 43b3cb4fd02f930d3768967d189cafd3e1f57c58 Vintage-Vivek <viveksir58@gmail.com> 1738339994 +0530	commit: tic tac toe app
+43b3cb4fd02f930d3768967d189cafd3e1f57c58 7747c31277f569ced5efeb72a9ddd37a7809f741 Vintage-Vivek <viveksir58@gmail.com> 1738340015 +0530	commit: to do app
+7747c31277f569ced5efeb72a9ddd37a7809f741 b9cc34bea66cd15348cdc2c7c616b566dc488fec Vintage-Vivek <viveksir58@gmail.com> 1738340111 +0530	commit: Wikipedia clone
+b9cc34bea66cd15348cdc2c7c616b566dc488fec d7f52da40bd7850de7672513365ad1d78a856dea Vintage-Vivek <viveksir58@gmail.com> 1738340203 +0530	commit: rec by sir figma yt video
+d7f52da40bd7850de7672513365ad1d78a856dea 4f23581d1f4873817c8990326b9d3c6d8363981f Vintage-Vivek <viveksir58@gmail.com> 1738729103 +0530	commit: backend start NODEJS
+4f23581d1f4873817c8990326b9d3c6d8363981f c814270e8804359d3a91a22ec2f124002b058633 Vintage-Vivek <viveksir58@gmail.com> 1738861815 +0530	commit: Express start
+c814270e8804359d3a91a22ec2f124002b058633 37daae24c431356a4d3b45da9af7867f2d700dc0 Vintage-Vivek <viveksir58@gmail.com> 1738862131 +0530	commit: Express start
+37daae24c431356a4d3b45da9af7867f2d700dc0 c2e25811f12f6ab6723102c90fce7f0772aa8130 Vintage-Vivek <viveksir58@gmail.com> 1738862146 +0530	commit: Express start
+c2e25811f12f6ab6723102c90fce7f0772aa8130 e0a4cfb34f442b3d192eb6ffaf0a863ae97f5af1 Vintage-Vivek <viveksir58@gmail.com> 1738862163 +0530	commit: Express start
+e0a4cfb34f442b3d192eb6ffaf0a863ae97f5af1 3cc7c58450cd88f61c88c3ede3797606a2de2a8a Vintage-Vivek <viveksir58@gmail.com> 1738862219 +0530	commit: Express start
+3cc7c58450cd88f61c88c3ede3797606a2de2a8a 5370c0a5520ae09207e2d2565a5119ec996d165c Vintage-Vivek <viveksir58@gmail.com> 1738944361 +0530	commit: todo app with bend continue
+5370c0a5520ae09207e2d2565a5119ec996d165c 09ef95c5ab02b54e5bd2589c8b3933081f9e6d0f Vintage-Vivek <viveksir58@gmail.com> 1739581962 +0530	commit: this app nd other apps nd assign. made seperately
+09ef95c5ab02b54e5bd2589c8b3933081f9e6d0f efbccfa98021b107c449d326fcd9ae738b6f2736 Vintage-Vivek <viveksir58@gmail.com> 1739582068 +0530	commit: after this in all class till 14-02-2025 we made todo and clubhub apps fullstack without react
+efbccfa98021b107c449d326fcd9ae738b6f2736 c48218c98472a2c48f5c3b4fc7b47af6c823e29e Vintage-Vivek <viveksir58@gmail.com> 1739582110 +0530	commit: all syllabus
+c48218c98472a2c48f5c3b4fc7b47af6c823e29e 3a563ed19f2c204a073062302f2734193fd63cc1 Vintage-Vivek <viveksir58@gmail.com> 1742174342 +0530	commit: maybe latest syllabus
+3a563ed19f2c204a073062302f2734193fd63cc1 9a28732e3e6de11f68cab3c55d917446a3b41e07 Vintage-Vivek <viveksir58@gmail.com> 1742174637 +0530	commit: Updated .gitignore
